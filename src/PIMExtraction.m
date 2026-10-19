@@ -1,5 +1,5 @@
 function feat = PIMExtraction(y,Fs,f1,f2)
-    % do something
+    % set N and take fourier transform
     N = length(y);
     Y = fft(y);
 
