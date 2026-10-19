@@ -1,0 +1,5 @@
+function RIS_obj = RISDevice(x,states,a1,a3)
+    % x - input 2 tone signal, states - 4 RIS elements
+    % a1 - linear coeff, a3 - 4 element specific nonlinear coefficients
+    RIS_obj = 0
+end
